@@ -18,6 +18,10 @@ app.get("/", (_, res) => {
   res.send("🌿 herb-image-server is alive!");
 });
 
-app.listen(PORT, "0.0.0.0", () => {
-  console.log(`🚀 Server running at http://0.0.0.0:${PORT}`);
-});
+try {
+  app.listen(PORT, "0.0.0.0", () => {
+    console.log(`🚀 Server running at http://0.0.0.0:${PORT}`);
+  });
+} catch (error) {
+  console.error("Server failed to start:", error);
+}
