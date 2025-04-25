@@ -1,6 +1,6 @@
 ## 사용 기술 ##
 TypeScript  
-Express
+Express  
 Nodemon
 
 ## 배포 방식 ##
