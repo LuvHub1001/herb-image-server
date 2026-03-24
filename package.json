@@ -5,12 +5,11 @@
     "start": "node dist/app.js"
   },
   "dependencies": {
-    "aws-sdk": "^2.1692.0",
+    "@aws-sdk/client-s3": "^3.750.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "multer": "^1.4.5-lts.2",
-    "multer-s3": "^3.0.1"
+    "multer": "^2.0.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.1",
